@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+/* Smooth transitions for dark mode */
+html {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-logo: "Raleway", sans-serif;
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+
+}

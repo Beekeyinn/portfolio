@@ -1,0 +1,58 @@
+{
+    "title": "Professional Expertise",
+    "description": "I deliver enterprise-grade web applications and APIs with a focus on scalability, performance, and maintainability. My technical foundation includes advanced Django implementations, API architecture, database optimization, and efficient distributed systems.",
+    "quote": {
+        "text": "Simplicity is prerequisite for reliability.",
+        "author": "Edsger W. Dijkstra"
+    },
+    "areas": [
+        {
+            "id": 1,
+            "category": "Framework",
+            "title": "Django",
+            "description": "Extensive experience architecting and implementing enterprise solutions with Django. Demonstrated expertise in complex data modeling, custom authentication systems, middleware development, advanced caching strategies, and security hardening for production environments."
+        },
+        {
+            "id": 2,
+            "category": "API",
+            "title": "Django REST Framework",
+            "description": "Proven track record designing and implementing production-grade RESTful APIs with DRF. Specialized in complex serialization patterns, optimized viewsets, rate limiting, comprehensive authentication flows (OAuth/JWT), and performance tuning for high-traffic applications."
+        },
+        {
+            "id": 3,
+            "category": "API",
+            "title": "FastAPI",
+            "description": "Successfully delivered high-performance asynchronous APIs using FastAPI. Strong command of type validation with Pydantic, dependency injection patterns, WebSocket implementations, and automated API documentation that enhances developer experience and adoption."
+        },
+        {
+            "id": 4,
+            "category": "E‑Commerce",
+            "title": "Shopify App Development",
+            "description": "Demonstrated success building commercial Shopify applications with seamless platform integration. Proficient with Polaris UI framework, App Bridge implementation, secure OAuth flows, reliable webhook management, and business logic implementation through Shopify's GraphQL and REST APIs."
+        },
+        {
+            "id": 5,
+            "category": "Task Processing",
+            "title": "Django Celery",
+            "description": "Architected and implemented production-ready distributed task processing systems. Expertise includes optimal broker configuration (Redis/RabbitMQ), worker scaling strategies, comprehensive monitoring solutions, and fault-tolerant asynchronous workflow design. Advanced implementation of Celery Beat for mission-critical scheduled tasks with proper error handling and recovery mechanisms."
+        },
+        {
+            "id": 6,
+            "category": "Database",
+            "title": "PostgreSQL",
+            "description": "Demonstrated expertise optimizing PostgreSQL databases for enterprise applications. Implemented strategic indexing, query performance tuning, efficient JSON/JSONB operations, table partitioning, connection pooling configuration, and transaction management strategies that significantly improved application performance under high load."
+        },
+        {
+            "id": 7,
+            "category": "Data Extraction",
+            "title": "Web Scraping",
+            "description": "Successfully designed and implemented enterprise-grade data extraction systems using Python. Leveraged BeautifulSoup, Selenium, and Scrapy to create robust HTML/XML parsers, headless browser automation, distributed crawling architectures, and comprehensive ETL pipelines that reliably process millions of data points."
+        },
+        {
+            "id": 8,
+            "category": "Frontend",
+            "title": "React",
+            "description": "Effectively implemented modern React applications with a focus on maintainability and performance. Applied best practices with functional components, hooks architecture, context API, efficient state management, and RESTful API integration to deliver responsive and intuitive user experiences."
+        }
+    ]
+}

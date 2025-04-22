@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "institution": "Kathmandu College of Technology",
+        "degree": "Bachelor of Science - BS, Computer Science and Information Technology",
+        "period": "2018 - 2022",
+        "location": "Bhaktapur, Bagmati, Nepal",
+        "logo": "https://www.kct.edu.np/frontend/assets/images/kct-footer-logo.svg",
+        "skills": [
+            "Python (Programming Language)",
+            "JavaScript",
+            "REST APIs",
+            "Django REST Framework",
+            "HTML",
+            "GitHub",
+            "Django",
+            "Cascading Style Sheets (CSS)",
+            "MySQL",
+            "Git"
+        ]
+    },
+    {
+        "id": 2,
+        "institution": "Surya Vinayak English Secondary School",
+        "degree": "School Level",
+        "period": "Nov 2018",
+        "location": "Bhaktapur, Bagmati, Nepal",
+        "logo": "https://usercontent.one/wp/suryavinayakschool.edu.np/wp-content/uploads/2020/11/vidhyalaya-removebg-preview-2-206x300.png?media=1682479440",
+        "skills": []
+    },
+    {
+        "id": 3,
+        "institution": "NASA International College",
+        "degree": "Higher School Level",
+        "period": "",
+        "location": "Tinkune, Kathmandu, Nepal",
+        "logo": "https://wms.edigitalnepal.com/wms/files/ws-profile/1719739297540_d7694396-73bf-4241-87c4-055560406abe.png",
+        "skills": []
+    }
+]

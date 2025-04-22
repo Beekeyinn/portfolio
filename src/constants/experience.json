@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "title": "Python Developer",
+        "company": "Nerd Platoon",
+        "type": "Contract",
+        "location": "Bhaktapur, Bagmati, Nepal",
+        "working_mode": "On-site",
+        "period": "Dec 2022 - Present",
+        "duration": "2 yrs 5 mos",
+        "skills": [
+            "Django",
+            "Selenium",
+            "+22 skills"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Python And Django Instructor",
+        "company": "Kathmandu College of Technology",
+        "location": "Kausaltar, Bhaktapur, Nepal",
+        "working_mode": "On-site",
+        "period": "Jun 2023 - Jun 2024",
+        "duration": "1 yr 1 mo",
+        "skills": []
+    },
+    {
+        "id": 3,
+        "title": "Django Developer",
+        "company": "RVM PVT LTD",
+        "type": "Internship",
+        "location": "Lalitpur District, Nepal",
+        "working_mode": "",
+        "period": "Apr 2022 - Oct 2022",
+        "duration": "7 mos",
+        "skills": [
+            "Cascading Style Sheets (CSS)",
+            "Django",
+            "+15 skills"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Django Developer",
+        "company": "IT Hive PVT LTD",
+        "type": "Internship",
+        "location": "Lokanthali, Bhaktapur, Nepal",
+        "working_mode": "",
+        "period": "Oct 2021 - Jan 2022",
+        "duration": "4 mos",
+        "skills": [
+            "Cascading Style Sheets (CSS)",
+            "Django",
+            "+10 skills"
+        ]
+    }
+]

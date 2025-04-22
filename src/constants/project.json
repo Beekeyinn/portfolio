@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "title": "Django E-Commerce API",
+        "category": "API Development",
+        "image": "/images/projects/ecommerce-api.jpg",
+        "description": "Scalable RESTful API for an e-commerce platform with JWT authentication, product management, and order processing using Django REST Framework.",
+        "technologies": [
+            "Python",
+            "Django",
+            "Django REST Framework",
+            "PostgreSQL",
+            "Redis"
+        ],
+        "githubUrl": "https://github.com/Beekeyinn/django-ecommerce-api",
+        "liveUrl": null
+    },
+    {
+        "id": 2,
+        "title": "DevOps Infrastructure",
+        "category": "DevOps",
+        "image": "/images/projects/devops-infra.jpg",
+        "description": "Containerized application deployment with CI/CD pipelines for automated testing and deployment of Django applications.",
+        "technologies": [
+            "Docker",
+            "GitHub Actions",
+            "Nginx",
+            "Gunicorn",
+            "AWS"
+        ],
+        "githubUrl": "https://github.com/Beekeyinn/django-devops",
+        "liveUrl": null
+    },
+    {
+        "id": 3,
+        "title": "Real-time Chat Application",
+        "category": "WebSockets",
+        "image": "/images/projects/chat-app.jpg",
+        "description": "Django Channels-based real-time messaging system with WebSockets, Redis pub/sub, and user authentication.",
+        "technologies": [
+            "Django",
+            "Django Channels",
+            "WebSockets",
+            "Redis",
+            "JavaScript"
+        ],
+        "githubUrl": "https://github.com/Beekeyinn/django-channels-chat",
+        "liveUrl": null
+    },
+    {
+        "id": 4,
+        "title": "Django Banking System",
+        "category": "API Development",
+        "image": "/images/projects/banking-system.jpg",
+        "description": "Secure banking API with transaction management, account handling, and comprehensive audit logging using Django.",
+        "technologies": [
+            "Python",
+            "Django",
+            "Django REST Framework",
+            "PostgreSQL",
+            "Celery"
+        ],
+        "githubUrl": "https://github.com/Beekeyinn/django-banking",
+        "liveUrl": null
+    },
+    {
+        "id": 5,
+        "title": "Data Processing Pipeline",
+        "category": "Data Engineering",
+        "image": "/images/projects/data-pipeline.jpg",
+        "description": "Automated data extraction, transformation, and loading pipeline for analytics using Django and Celery.",
+        "technologies": [
+            "Python",
+            "Django",
+            "Celery",
+            "Pandas",
+            "PostgreSQL"
+        ],
+        "githubUrl": "https://github.com/Beekeyinn/data-pipeline",
+        "liveUrl": null
+    },
+    {
+        "id": 6,
+        "title": "Authentication Microservice",
+        "category": "Microservices",
+        "image": "/images/projects/auth-service.jpg",
+        "description": "Django-based authentication service with JWT, role-based access control and OAuth2 integration.",
+        "technologies": [
+            "Python",
+            "Django",
+            "Django REST Framework",
+            "JWT",
+            "OAuth2"
+        ],
+        "githubUrl": "https://github.com/Beekeyinn/django-auth-service",
+        "liveUrl": null
+    }
+]
