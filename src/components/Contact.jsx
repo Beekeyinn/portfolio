@@ -4,7 +4,6 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
     const [formData, setFormData] = useState({
-        name: "",
         email: "",
         message: ""
     });
@@ -27,7 +26,14 @@ const Contact = () => {
         // Simulate form submission
         try {
             // This would be replaced with an actual API call in a production environment
-            await new Promise(resolve => setTimeout(resolve, 1000));
+            const response = await fetch("https://formspree.io/f/mvgazzbq", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(formData)
+            });
+            console.log(response);
 
             setSubmitMessage({
                 type: "success",
@@ -36,7 +42,6 @@ const Contact = () => {
 
             // Reset form
             setFormData({
-                name: "",
                 email: "",
                 message: ""
             });
@@ -157,19 +162,6 @@ const Contact = () => {
                                 </div>
                             )}
 
-                            <div>
-                                <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
-                                <input
-                                    type="text"
-                                    id="name"
-                                    name="name"
-                                    value={formData.name}
-                                    onChange={handleChange}
-                                    className="w-full px-4 py-3 rounded-md bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                                    placeholder="Your name"
-                                    required
-                                />
-                            </div>
                             <div>
                                 <label htmlFor="email" className="block text-sm font-medium mb-2">Email</label>
                                 <input

@@ -1,98 +1,81 @@
 [
     {
         "id": 1,
-        "title": "Django E-Commerce API",
-        "category": "API Development",
-        "image": "/images/projects/ecommerce-api.jpg",
-        "description": "Scalable RESTful API for an e-commerce platform with JWT authentication, product management, and order processing using Django REST Framework.",
+        "title": "Movie Recommendation System",
+        "category": "Machine Learning & Data Science",
+        "description": "A content-based movie recommendation engine that analyzes user preferences and viewing history to suggest personalized movie recommendations with high accuracy.",
         "technologies": [
             "Python",
-            "Django",
-            "Django REST Framework",
-            "PostgreSQL",
-            "Redis"
+            "scikit-learn",
+            "Pandas",
+            "NumPy",
+            "Django"
         ],
-        "githubUrl": "https://github.com/Beekeyinn/django-ecommerce-api",
+        "githubUrl": "https://github.com/Beekeyinn/movie_recommendation_system",
         "liveUrl": null
     },
     {
         "id": 2,
-        "title": "DevOps Infrastructure",
-        "category": "DevOps",
-        "image": "/images/projects/devops-infra.jpg",
-        "description": "Containerized application deployment with CI/CD pipelines for automated testing and deployment of Django applications.",
+        "title": "Ecommerce using Django",
+        "category": "Full-Stack Web Development",
+        "description": "A fully functional e-commerce platform with features including product catalog, shopping cart, secure payment integration, user authentication, and order management system.",
         "technologies": [
-            "Docker",
-            "GitHub Actions",
-            "Nginx",
-            "Gunicorn",
-            "AWS"
+            "Python",
+            "Django",
+            "Bootstrap",
+            "SQLite",
+            "JavaScript",
+            "RESTful API"
         ],
-        "githubUrl": "https://github.com/Beekeyinn/django-devops",
+        "githubUrl": "https://github.com/Beekeyinn/ecommerce_django_practice",
         "liveUrl": null
     },
     {
         "id": 3,
-        "title": "Real-time Chat Application",
-        "category": "WebSockets",
-        "image": "/images/projects/chat-app.jpg",
-        "description": "Django Channels-based real-time messaging system with WebSockets, Redis pub/sub, and user authentication.",
+        "title": "Job-Portal using Django",
+        "category": "Full-Stack Web Development",
+        "description": "A comprehensive job portal that connects employers and job seekers, featuring job listings, advanced search filters, application tracking, and user profile management.",
         "technologies": [
+            "Python",
             "Django",
-            "Django Channels",
-            "WebSockets",
-            "Redis",
-            "JavaScript"
+            "JavaScript",
+            "HTML/CSS",
+            "AJAX",
+            "PostgreSQL"
         ],
-        "githubUrl": "https://github.com/Beekeyinn/django-channels-chat",
+        "githubUrl": "https://github.com/Beekeyinn/Job-Portal",
         "liveUrl": null
     },
     {
         "id": 4,
-        "title": "Django Banking System",
-        "category": "API Development",
-        "image": "/images/projects/banking-system.jpg",
-        "description": "Secure banking API with transaction management, account handling, and comprehensive audit logging using Django.",
+        "title": "Open-AI Assistant",
+        "category": "AI & Natural Language Processing",
+        "description": "A conversational AI assistant built on OpenAI's API that provides contextual responses, performs tasks, and integrates with various services to enhance user productivity.",
         "technologies": [
             "Python",
             "Django",
-            "Django REST Framework",
-            "PostgreSQL",
-            "Celery"
+            "OpenAI API",
+            "Google Cloud Platform",
+            "React"
         ],
-        "githubUrl": "https://github.com/Beekeyinn/django-banking",
+        "githubUrl": "https://github.com/Beekeyinn/open-ai-assistant",
         "liveUrl": null
     },
     {
         "id": 5,
-        "title": "Data Processing Pipeline",
-        "category": "Data Engineering",
-        "image": "/images/projects/data-pipeline.jpg",
-        "description": "Automated data extraction, transformation, and loading pipeline for analytics using Django and Celery.",
+        "title": "Rentalescapes",
+        "category": "Web Scraping & Real Estate",
+        "description": "An automated real estate data collection system that scrapes multiple property listing websites to aggregate rental properties with detailed information and analytics.",
         "technologies": [
             "Python",
             "Django",
-            "Celery",
-            "Pandas",
-            "PostgreSQL"
+            "Bootstrap",
+            "PostgreSQL",
+            "BeautifulSoup",
+            "Selenium",
+            "Celery"
         ],
-        "githubUrl": "https://github.com/Beekeyinn/data-pipeline",
-        "liveUrl": null
-    },
-    {
-        "id": 6,
-        "title": "Authentication Microservice",
-        "category": "Microservices",
-        "image": "/images/projects/auth-service.jpg",
-        "description": "Django-based authentication service with JWT, role-based access control and OAuth2 integration.",
-        "technologies": [
-            "Python",
-            "Django",
-            "Django REST Framework",
-            "JWT",
-            "OAuth2"
-        ],
-        "githubUrl": "https://github.com/Beekeyinn/django-auth-service",
+        "githubUrl": "https://github.com/Beekeyinn/rentalescapes",
         "liveUrl": null
     }
 ]
